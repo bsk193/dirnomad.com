@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="description" content="Dir. Nomad: director and filmmaker. Music videos. Book your video.">
+<title>Shop · Dir. Nomad</title>
+<link rel="icon" href="/dirnomad.com/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;800;900&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <script type="module" crossorigin src="/dirnomad.com/assets/shop-CZmyavsI.js"></script>
+  <link rel="modulepreload" crossorigin href="/dirnomad.com/assets/site-BqvNgLf8.js">
+  <link rel="modulepreload" crossorigin href="/dirnomad.com/assets/site-47DMfjKg.js">
+  <link rel="stylesheet" crossorigin href="/dirnomad.com/assets/site-DlTEFncv.css">
+</head>
+<body>
+<nav class="nav" aria-label="Main">
+  <a class="logo" href="/dirnomad.com/" aria-label="Dir. Nomad home"><img src="/dirnomad.com/logo.png" alt="Dir. Nomad"></a>
+  <ul>
+    <li><a href="/dirnomad.com/work">Work</a></li>
+    <li><a href="/dirnomad.com/shop" aria-current="page">Shop</a></li>
+    <li><a href="/dirnomad.com/about">About</a></li>
+    <li><a href="/dirnomad.com/contact">Contact</a></li>
+    <li><a class="book" href="/dirnomad.com/book">Book now</a></li>
+    <li><button class="cartbtn" type="button" id="cartOpen">Cart <b id="cartCount">0</b></button></li>
+  </ul>
+</nav>
+<style>.products{grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:28px;display:grid}.prod{background:var(--bg);border:1px solid var(--line);flex-direction:column;min-width:0;transition:border-color .3s,transform .3s;display:flex}.prod:hover{border-color:#3a3a40;transform:translateY(-4px)}.swatch{aspect-ratio:16/9;background:#111;max-width:100%;position:relative;overflow:hidden}.swatch img{object-fit:cover;width:100%;height:100%;position:absolute;inset:0}.swatch .graded{clip-path:inset(0 0 0 50%);transition:clip-path .6s}.prod:hover .swatch .graded{clip-path:inset(0 0 0 12%)}.swatch .split{background:var(--fg);width:1px;transition:left .6s;position:absolute;top:0;bottom:0;left:50%}.prod:hover .swatch .split{left:12%}.swatch .lbl{font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;background:var(--bg);padding:2px 6px;position:absolute;bottom:8px}.swatch .lbl.l{left:8px}.swatch .lbl.r{right:8px}.swatch .strip{grid-template-columns:repeat(5,1fr);display:grid;position:absolute;inset:0}.swatch .strip div{position:relative;overflow:hidden}.badge{z-index:1;background:var(--tally);color:var(--fg);font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:4px 8px;position:absolute;top:10px;left:10px}.prod .body{flex-direction:column;flex:1;gap:10px;padding:20px;display:flex}.prod h3{font:800 1.7rem/1 var(--display);text-transform:uppercase;margin:0}.prod p{color:var(--muted);margin:0;font-size:14px}.chips{flex-wrap:wrap;gap:6px;display:flex}.chips span{font:400 11px var(--mono);background:var(--bg-2);border:1px solid var(--line);padding:3px 7px}.prod .foot{border-top:1px solid var(--line);justify-content:space-between;align-items:center;gap:12px;margin-top:auto;padding-top:14px;display:flex}.price{font:800 2rem/1 var(--display);font-variant-numeric:tabular-nums}.soon{justify-items:start;gap:12px;padding:40px 0;display:grid}.soon h2{margin:0}.soon p{color:var(--muted);max-width:52ch;margin:0}</style>
+<header class="phead">
+  <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+  <div class="wrap">
+    <div class="rec">REC · SHOP</div>
+    <h1>Presets</h1>
+    <p>Professional color grading presets crafted from years of filmmaking experience. Each pack gives your footage the signature cinematic look used in our productions. Hover a frame to see the grade.</p>
+  </div>
+</header>
+<section class="sec">
+  <div class="wrap"><div class="products" id="products"></div></div>
+</section>
+<section class="sec alt">
+  <div class="wrap cta">
+    <div class="k">Custom presets</div>
+    <h2>Need a look nobody else has?</h2>
+    <p>We offer custom color grading services tailored to your brand and vision.</p>
+    <div class="row"><a class="btn ghost big" href="/dirnomad.com/contact">Get in touch</a></div>
+  </div>
+</section>
+<footer>
+  <div class="brand">
+    <img src="/dirnomad.com/logo.png" alt="Dir. Nomad">
+    <div class="muted">Director &amp; Filmmaker</div>
+  </div>
+  <div class="links" role="navigation" aria-label="Footer">
+    <a href="/dirnomad.com/work">Work</a><a href="/dirnomad.com/shop">Shop</a><a href="/dirnomad.com/about">About</a><a href="/dirnomad.com/contact">Contact</a><a href="/dirnomad.com/book">Book now</a>
+    <a href="https://www.youtube.com/@DirectedbyNOMAD" target="_blank" rel="noopener">YouTube ↗</a>
+  </div>
+  <div class="bottom"><span>© 2026 Nomad. All rights reserved.</span><span>nomad.com</span></div>
+</footer>
+<div id="lb" hidden role="dialog" aria-modal="true" aria-labelledby="lbt">
+  <div class="box">
+    <div class="frame" id="lbFrame"></div>
+    <p class="s" id="lbNote" hidden>This preview can't play YouTube videos, so they open on YouTube. On the live site they play right here.</p>
+    <div class="bar">
+      <div><div class="k" id="lbN"></div><div class="t" id="lbt"></div><div class="a" id="lbA"></div><div class="s" id="lbS"></div></div>
+      <div class="acts"><button class="btn ghost" id="lbPrev" type="button">← Prev</button><button class="btn ghost" id="lbNext" type="button">Next →</button><a class="btn ghost" id="lbYt" target="_blank" rel="noopener">YouTube ↗</a><button class="btn" id="lbX" type="button">Close</button></div>
+    </div>
+  </div>
+</div>
+<div id="cart" hidden>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+    <div class="top"><h3 id="cartTitle">Your cart</h3><button class="btn ghost" id="cartClose" type="button">Close</button></div>
+    <ul id="cartList"></ul>
+    <div class="sum"><span>Subtotal</span><span id="cartTotal">$0</span></div>
+    <button class="btn" id="checkout" type="button">Proceed to checkout</button>
+    <p class="note" id="cartNote">Taxes calculated at checkout.</p>
+  </div>
+</div>
+</body>
+</html>
